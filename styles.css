@@ -153,7 +153,7 @@ body {
 
 @media (min-width: 64em) {
   .card {
-    margin-top: 10.188rem;
+    margin-top: 3rem;
     width: 635px;
     display: grid;
     grid-template-columns: 317.5px 317.5px;
