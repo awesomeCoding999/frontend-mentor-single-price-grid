@@ -4,7 +4,7 @@
 
 ## Mobile<!-- omit in toc -->
 
-This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Single price grid component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc).
 
 ## Table of contents<!-- omit in toc -->
 
@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Add solution URL here](https://your-solution-url.com)
-- [Add live site URL here](https://your-live-site-url.com)
+- [GitHub repo](https://github.com/awesomeCoding999/frontend-mentor-single-price-grid)
+- [Live site](https://awesomecoding999.github.io/frontend-mentor-single-price-grid/)
 
 ## My process
 
