@@ -9,8 +9,8 @@
 :root {
   --cyan: #2ab3b1;
   --aqua-blue: #4abebd;
-  --bright-yellow: hsl(71, 73%, 54%);
-  --light-grey: hsl(204, 43%, 93%);
+  --bright-yellow: #c0df34;
+  --light-grey: #e5eff5;
   --greyish-blue: #98a6bd;
   --light-blue: #e6eff5;
   --white: #fff;
@@ -31,7 +31,7 @@ body {
   width: 311px;
   background-color: var(--white);
   box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
-  margin-top: 72px;
+  margin-top: 4.5rem;
   margin-bottom: 1rem;
   border-radius: 5px;
 }
@@ -46,12 +46,12 @@ body {
   font-size: 1.2rem;
   line-height: 23px;
   letter-spacing: -0.25px;
-  margin: 28px 0 24px;
+  margin: 1.75rem 0 1.5rem;
 }
 
 .subtitle {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 0.938rem;
   line-height: 20px;
   letter-spacing: -0.1875px;
   color: var(--bright-yellow);
@@ -59,7 +59,7 @@ body {
 
 .description {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 26px;
   letter-spacing: -0.175px;
   color: var(--greyish-blue);
@@ -73,10 +73,10 @@ body {
 
 .price-subtitle {
   color: var(--white);
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 21px;
   letter-spacing: -0.225px;
-  padding: 24px 0 18px;
+  padding: 1.5rem 0 1.125rem;
 }
 
 .price-details {
@@ -86,7 +86,7 @@ body {
 
 .price {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 37px;
   letter-spacing: -0.4px;
   color: var(--white);
@@ -94,13 +94,13 @@ body {
 
 .per-month-text {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 26px;
   letter-spacing: -0.2px;
   color: var(--white);
   mix-blend-mode: normal;
   opacity: 0.5;
-  margin-left: 11px;
+  margin-left: 0.688rem;
 }
 
 .price-description {
@@ -120,8 +120,8 @@ body {
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
   border-radius: 5px;
   border: none;
-  padding: 15px 102px 14px;
-  margin: 26px 0 24px;
+  padding: 0.938rem 6.375rem 0.875rem;
+  margin: 1.625rem 0 1.5rem;
   cursor: pointer;
 }
 
@@ -132,28 +132,28 @@ body {
 
 .value-subtitle {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 21px;
   letter-spacing: -0.225px;
   color: var(--white);
-  padding: 24px 0 18px;
+  padding: 1.5rem 0 1.125rem;
 }
 
 .value-list-items {
   list-style-type: none;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 20px;
   letter-spacing: -0.175px;
   color: var(--white);
   mix-blend-mode: normal;
   opacity: 0.75;
-  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
 }
 
 @media (min-width: 64em) {
   .card {
-    margin-top: 163px;
+    margin-top: 10.188rem;
     width: 635px;
     display: grid;
     grid-template-columns: 317.5px 317.5px;
@@ -164,5 +164,13 @@ body {
 
   .hero {
     grid-area: hero;
+  }
+
+  .price-container {
+    border-bottom-left-radius: 8px;
+  }
+
+  .value-proposition {
+    border-bottom-right-radius: 8px;
   }
 }
