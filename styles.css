@@ -150,3 +150,19 @@ body {
   opacity: 0.75;
   padding-bottom: 24px;
 }
+
+@media (min-width: 64em) {
+  .card {
+    margin-top: 163px;
+    width: 635px;
+    display: grid;
+    grid-template-columns: 317.5px 317.5px;
+    grid-template-areas:
+      "hero hero"
+      "price value";
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+}

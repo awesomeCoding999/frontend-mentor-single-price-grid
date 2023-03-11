@@ -2,6 +2,8 @@
 
 ## Desktop<!-- omit in toc -->
 
+![final desktop screenshot](images/final-desktop.png)
+
 ## Mobile<!-- omit in toc -->
 
 ![final mobile screenshot](images/final-mobile.png)
